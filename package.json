@@ -18,7 +18,7 @@
     "test": "lab -cvL"
   },
   "dependencies": {
-    "glogg": "0.0.0"
+    "glogg": "^1.0.0"
   },
   "devDependencies": {
     "code": "^1.5.0",
