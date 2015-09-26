@@ -31,6 +31,8 @@ logger.info([1, 2, 3]);
 
 ## API
 
+Logging (and level of logging) is controlled by [`gulp-cli`][gulp-cli-url]
+
 #### logger.debug(msg)
 
 Highest log level.  Typically used for debugging purposes.
@@ -72,3 +74,5 @@ MIT
 
 [gitter-url]: https://gitter.im/gulpjs/gulp
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
+
+[gulp-cli-url]: https://github.com/gulpjs/gulp-cli
