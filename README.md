@@ -38,28 +38,28 @@ Logging (and level of logging) is controlled by [`gulp-cli`][gulp-cli-url]
 Highest log level.  Typically used for debugging purposes.
 
 If the first argument is a string, all arguments are passed to node's
-`util.format()` before being emitted.
+[`util.format()`][util-format-url] before being emitted.
 
 #### logger.info(msg)
 
 Standard log level.  Typically used for user information.
 
 If the first argument is a string, all arguments are passed to node's
-`util.format()` before being emitted.
+[`util.format()`][util-format-url] before being emitted.
 
 #### logger.warn(msg)
 
 Warning log level.  Typically used for warnings.
 
 If the first argument is a string, all arguments are passed to node's
-`util.format()` before being emitted.
+[`util.format()`][util-format-url] before being emitted.
 
 #### logger.error(msg)
 
 Error log level.  Typically used when things went horribly wrong.
 
 If the first argument is a string, all arguments are passed to node's
-`util.format()` before being emitted.
+[`util.format()`][util-format-url] before being emitted.
 
 ## License
 
@@ -76,3 +76,4 @@ MIT
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
 
 [gulp-cli-url]: https://github.com/gulpjs/gulp-cli
+[util-format-url]: https://nodejs.org/docs/latest/api/util.html#util_util_format_format
