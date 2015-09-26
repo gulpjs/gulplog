@@ -29,3 +29,11 @@ node_modules
 
 # Garbage files
 .DS_Store
+*.node
+*.orig
+/gulp.1
+/.idea
+/build
+/components
+/coverage
+/sandbox

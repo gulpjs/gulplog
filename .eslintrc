@@ -1,12 +1,3 @@
 {
-  "rules": {
-    "semi": [2, "always"],
-    "quotes": [2, "single"],
-    "strict": [2, "global"],
-    "no-underscore-dangle": 0
-  },
-  "env": {
-    "browser": true,
-    "node": true
-  }
+  "extends": "node-style-guide"
 }
