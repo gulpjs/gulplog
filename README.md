@@ -1,4 +1,12 @@
+<p align="center">
+  <a href="http://gulpjs.com">
+    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+  </a>
+</p>
+
 # gulplog
+
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Gitter chat][gitter-image]][gitter-url]
 
 Logger for gulp and gulp plugins
 
@@ -54,3 +62,13 @@ If the first argument is a string, all arguments are passed to node's
 ## License
 
 MIT
+
+[downloads-image]: http://img.shields.io/npm/dm/gulplog.svg
+[npm-url]: https://npmjs.org/package/gulplog
+[npm-image]: http://img.shields.io/npm/v/gulplog.svg
+
+[travis-url]: https://travis-ci.org/gulpjs/gulplog
+[travis-image]: http://img.shields.io/travis/gulpjs/gulplog.svg
+
+[gitter-url]: https://gitter.im/gulpjs/gulp
+[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
