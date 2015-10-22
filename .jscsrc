@@ -1,4 +1,3 @@
 {
-  "preset": "node-style-guide",
-  "maximumLineLength": null
+  "preset": "gulp"
 }
