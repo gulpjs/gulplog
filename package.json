@@ -10,6 +10,7 @@
     "node": ">= 0.10"
   },
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "LICENSE",
     "index.js"
