@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="http://gulpjs.com">
+  <a href="https://gulpjs.com">
     <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
   </a>
 </p>
 
 # gulplog
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Gitter chat][gitter-image]][gitter-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 
 Logger for gulp and gulp plugins
 
@@ -65,15 +65,20 @@ If the first argument is a string, all arguments are passed to node's
 
 MIT
 
-[downloads-image]: http://img.shields.io/npm/dm/gulplog.svg
+
+<!-- prettier-ignore-start -->
+[downloads-image]: https://img.shields.io/npm/dm/gulplog.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/gulplog
-[npm-image]: http://img.shields.io/npm/v/gulplog.svg
+[npm-image]: https://img.shields.io/npm/v/gulplog.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/gulpjs/gulplog
-[travis-image]: http://img.shields.io/travis/gulpjs/gulplog.svg
+[ci-url]: https://github.com/gulpjs/gulplog/actions?query=workflow:dev
+[ci-image]: https://img.shields.io/github/workflow/status/gulpjs/gulplog/dev?style=flat-square
 
-[gitter-url]: https://gitter.im/gulpjs/gulp
-[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
+[coveralls-url]: https://coveralls.io/r/gulpjs/gulplog
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/master.svg?style=flat-square
+<!-- prettier-ignore-end -->
 
+<!-- prettier-ignore-start -->
 [gulp-cli-url]: https://github.com/gulpjs/gulp-cli
 [util-format-url]: https://nodejs.org/docs/latest/api/util.html#util_util_format_format
+<!-- prettier-ignore-end -->
