@@ -11,8 +11,8 @@ describe('gulplog', function() {
     done();
   });
 
-  it('should emits a each event when debug/info/warn/error methods are called', function(done) {
-    var called = { debug: false, info: false, warn: false, error: false };
+  it('should emit the appropriate event when debug/info/warn/error methods are called', function(done) {
+    var called = { debug: 0, info: 0, warn: 0, error: 0 };
     function allDone() {
       if (called.debug && called.info && called.warn && called.error) {
         done();
@@ -21,25 +21,25 @@ describe('gulplog', function() {
 
     logger.on('debug', function(msg) {
       expect(msg).toEqual('The MOST verbose!');
-      called.debug = true;
+      called.debug++;
       allDone();
     });
 
     logger.on('info', function(msg) {
       expect(msg).toEqual('Some important info');
-      called.info = true;
+      called.info++;
       allDone();
     });
 
     logger.on('warn', function(msg) {
       expect(msg).toEqual('All the warnings to you');
-      called.warn = true;
+      called.warn++;
       allDone();
     });
 
     logger.on('error', function(msg) {
       expect(msg).toEqual('OH NO! SOMETHING HAPPENED!');
-      called.error = true;
+      called.error++;
       allDone();
     });
 
