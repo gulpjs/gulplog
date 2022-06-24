@@ -35,28 +35,28 @@ Logging (and level of logging) is controlled by [`gulp-cli`][gulp-cli-url]
 
 #### logger.debug(msg)
 
-Highest log level.  Typically used for debugging purposes.
+Highest log level. Typically used for debugging purposes.
 
 If the first argument is a string, all arguments are passed to node's
 [`util.format()`][util-format-url] before being emitted.
 
 #### logger.info(msg)
 
-Standard log level.  Typically used for user information.
+Standard log level. Typically used for user information.
 
 If the first argument is a string, all arguments are passed to node's
 [`util.format()`][util-format-url] before being emitted.
 
 #### logger.warn(msg)
 
-Warning log level.  Typically used for warnings.
+Warning log level. Typically used for warnings.
 
 If the first argument is a string, all arguments are passed to node's
 [`util.format()`][util-format-url] before being emitted.
 
 #### logger.error(msg)
 
-Error log level.  Typically used when things went horribly wrong.
+Error log level. Typically used when things went horribly wrong.
 
 If the first argument is a string, all arguments are passed to node's
 [`util.format()`][util-format-url] before being emitted.
@@ -64,7 +64,6 @@ If the first argument is a string, all arguments are passed to node's
 ## License
 
 MIT
-
 
 <!-- prettier-ignore-start -->
 [downloads-image]: https://img.shields.io/npm/dm/gulplog.svg?style=flat-square
