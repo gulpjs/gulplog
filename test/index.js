@@ -15,6 +15,10 @@ describe('gulplog', function() {
     var called = { debug: 0, info: 0, warn: 0, error: 0 };
     function allDone() {
       if (called.debug && called.info && called.warn && called.error) {
+        expect(called.debug).toEqual(1);
+        expect(called.info).toEqual(1);
+        expect(called.warn).toEqual(1);
+        expect(called.error).toEqual(1);
         done();
       }
     }
