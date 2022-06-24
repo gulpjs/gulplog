@@ -1,6 +1,6 @@
 {
   "name": "gulplog",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Logger for gulp and gulp plugins",
   "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
   "contributors": [
