@@ -6,7 +6,7 @@ var logger = require('../');
 
 describe('gulplog', function() {
 
-  afterEach(function(done) {
+  after(function(done) {
     logger.remove();
     done();
   });
