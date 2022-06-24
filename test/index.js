@@ -10,6 +10,11 @@ describe('gulplog', function () {
     done();
   });
 
+  afterEach(function (done) {
+    logger.removeAllListeners();
+    done();
+  });
+
   it('should emit the appropriate event when debug/info/warn/error methods are called', function (done) {
     var called = { debug: 0, info: 0, warn: 0, error: 0 };
     function allDone() {
