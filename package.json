@@ -15,7 +15,8 @@
   "types": "index.d.ts",
   "files": [
     "LICENSE",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "lint": "eslint .",
