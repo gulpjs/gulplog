@@ -1,5 +1,12 @@
 # gulplog changelog
 
+### [2.0.1](https://www.github.com/gulpjs/gulplog/compare/v2.0.0...v2.0.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* Include TypeScript definition file in package ([f4aee89](https://www.github.com/gulpjs/gulplog/commit/f4aee89952538290511ff4c7585e9ed35170ccdf))
+
 ## [2.0.0](https://www.github.com/gulpjs/gulplog/compare/v1.0.0...v2.0.0) (2022-06-24)
 
 
