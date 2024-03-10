@@ -83,4 +83,14 @@ describe('gulplog', function () {
 
     logger.info([1, 2, 3]);
   });
+
+  it('logs all arguments if first argument is not a string', function (done) {
+    logger.on('info', function (arg1, arg2) {
+      expect(arg1).toEqual([1, 2, 3]);
+      expect(arg2).toEqual([4, 5, 6]);
+      done();
+    });
+
+    logger.info([1, 2, 3], [4, 5, 6]);
+  });
 });

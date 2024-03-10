@@ -24,7 +24,7 @@
     "test": "nyc mocha --async-only"
   },
   "dependencies": {
-    "glogg": "^2.0.0"
+    "glogg": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
