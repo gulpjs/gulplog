@@ -1,5 +1,12 @@
 # gulplog changelog
 
+## [2.1.0](https://www.github.com/gulpjs/gulplog/compare/v2.0.1...v2.1.0) (2024-03-10)
+
+
+### Features
+
+* Log all arguments when first argument is not a string ([#19](https://www.github.com/gulpjs/gulplog/issues/19)) ([323a27a](https://www.github.com/gulpjs/gulplog/commit/323a27aa8d451d4389adbfea8dbd2317c1b44451))
+
 ### [2.0.1](https://www.github.com/gulpjs/gulplog/compare/v2.0.0...v2.0.1) (2022-09-28)
 
 
