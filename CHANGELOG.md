@@ -1,5 +1,12 @@
 # gulplog changelog
 
+## [2.2.0](https://www.github.com/gulpjs/gulplog/compare/v2.1.0...v2.2.0) (2024-03-23)
+
+
+### Features
+
+* Upgrade glogg to handle events from older versions ([4999733](https://www.github.com/gulpjs/gulplog/commit/4999733621311f409bf29673361315ee023cb261))
+
 ## [2.1.0](https://www.github.com/gulpjs/gulplog/compare/v2.0.1...v2.1.0) (2024-03-10)
 
 
