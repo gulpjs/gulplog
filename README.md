@@ -94,3 +94,8 @@ MIT
 [coveralls-url]: https://coveralls.io/r/gulpjs/gulplog
 [coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/main.svg?style=flat-square
 <!-- prettier-ignore-end -->
+
+<!-- prettier-ignore-start -->
+[gulp-cli-url]: https://github.com/gulpjs/gulp-cli
+[util-format-url]: https://nodejs.org/docs/latest/api/util.html#util_util_format_format
+<!-- prettier-ignore-end -->
