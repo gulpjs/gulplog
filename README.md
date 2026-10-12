@@ -13,19 +13,19 @@ Logger for gulp and gulp plugins
 ## Usage
 
 ```js
-var logger = require('gulplog');
+var logger = require("gulplog");
 
 // logs strings
-logger.debug('The MOST verbose!');
-logger.info('Some important info');
-logger.warn('All the warnings to you');
-logger.error('OH NO! SOMETHING HAPPENED!');
+logger.debug("The MOST verbose!");
+logger.info("Some important info");
+logger.warn("All the warnings to you");
+logger.error("OH NO! SOMETHING HAPPENED!");
 
 // supports util.format!
-logger.info('%s style!', 'printf');
+logger.info("%s style!", "printf");
 
 // log anything
-logger.debug({ my: 'obj' });
+logger.debug({ my: "obj" });
 logger.info([1, 2, 3]);
 ```
 
@@ -69,6 +69,16 @@ If the first argument is a string, all arguments are passed to node's
 
 If the first argument is not a string, all arguments will be emitted directly.
 
+## Strict No LLM / No AI Policy
+
+No LLMs for issues.
+
+No LLMs for patches / pull requests.
+
+No LLMs for comments on the bug tracker, including translation.
+
+English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.
+
 ## License
 
 MIT
@@ -78,11 +88,11 @@ MIT
 [npm-url]: https://npmjs.org/package/gulplog
 [npm-image]: https://img.shields.io/npm/v/gulplog.svg?style=flat-square
 
-[ci-url]: https://github.com/gulpjs/gulplog/actions?query=workflow:dev
-[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/gulplog/dev.yml?branch=master&style=flat-square
+[ci-url]: https://github.com/gulpjs/gulplog/actions/workflows/dev.yml
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/gulplog/dev.yml?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/gulpjs/gulplog
-[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/master.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/main.svg?style=flat-square
 <!-- prettier-ignore-end -->
 
 <!-- prettier-ignore-start -->
