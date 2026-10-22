@@ -14,7 +14,7 @@ describe("gulplog", function () {
     logger.removeAllListeners();
   });
 
-  it("should emit the appropriate event when debug/info/warn/error methods are called", function () {
+  it("should emit the appropriate event when debug/info/warn/error methods are called", function (t, done) {
     var called = { debug: 0, info: 0, warn: 0, error: 0 };
     function allDone() {
       if (called.debug && called.info && called.warn && called.error) {
@@ -22,6 +22,7 @@ describe("gulplog", function () {
         assert.deepStrictEqual(called.info, 1);
         assert.deepStrictEqual(called.warn, 1);
         assert.deepStrictEqual(called.error, 1);
+        done();
       }
     }
 
@@ -55,34 +56,37 @@ describe("gulplog", function () {
     logger.error("OH NO! SOMETHING HAPPENED!");
   });
 
-  it("should support util.format syntax", function () {
+  it("should support util.format syntax", function (t, done) {
     logger.on("debug", function (msg) {
       assert.deepStrictEqual(msg, "printf style!");
+      done();
     });
 
     logger.debug("%s style!", "printf");
   });
 
-  it("should log an object as it is", function () {
+  it("should log an object as it is", function (t, done) {
     logger.on("debug", function (msg) {
       assert.deepStrictEqual(msg, { my: "obj" });
+      done();
     });
-
     logger.debug({ my: "obj" });
   });
 
-  it("should log an array as it is", function () {
+  it("should log an array as it is", function (t, done) {
     logger.on("info", function (msg) {
       assert.deepStrictEqual(msg, [1, 2, 3]);
+      done();
     });
 
     logger.info([1, 2, 3]);
   });
 
-  it("logs all arguments if first argument is not a string", function () {
+  it("logs all arguments if first argument is not a string", function (t, done) {
     logger.on("info", function (arg1, arg2) {
       assert.deepStrictEqual(arg1, [1, 2, 3]);
       assert.deepStrictEqual(arg2, [4, 5, 6]);
+      done();
     });
 
     logger.info([1, 2, 3], [4, 5, 6]);
